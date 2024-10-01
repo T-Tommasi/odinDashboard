@@ -58,6 +58,19 @@ body {
    grid-column: 2 / 3;
     grid-row: 1 / 2;
     grid-column: 2 / 5;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    border-radius: 5px;
+    width: 30dvh;
 }
 
 .body {
